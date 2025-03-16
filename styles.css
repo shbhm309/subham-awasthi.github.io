@@ -1,42 +1,55 @@
+/* Dark Theme */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
 }
 
-header {
-    background: #0073e6;
-    color: white;
-    padding: 20px;
+/* Navigation */
+nav {
+    background: #1f1f1f;
+    padding: 15px;
     text-align: center;
 }
 
-section {
-    margin: 20px;
-    padding: 20px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-h2 {
-    color: #0073e6;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-a {
-    color: #0073e6;
+nav ul li a {
     text-decoration: none;
+    color: #76c7c0;
+    font-size: 18px;
 }
 
-a:hover {
-    text-decoration: underline;
+nav ul li a:hover {
+    color: #ff9800;
 }
 
-footer {
+/* Section Styling */
+section {
+    padding: 40px;
     text-align: center;
-    padding: 10px;
-    background: #0073e6;
-    color: white;
+}
+
+h1, h2 {
+    color: #76c7c0;
+}
+
+/* Footer */
+footer {
+    background: #1f1f1f;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
